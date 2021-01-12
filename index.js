@@ -1,7 +1,7 @@
 $(
     function(){
         $('span').hide().fadeIn(2000);
-        $('#shatta').on('mouseover', function(){
+        $('#shatta').on('click mouseover', function(){
             let shatta = $('#shatta');
             shatta.animate({
                 top: 60
@@ -12,7 +12,7 @@ $(
         });
 
         
-        $('#beyonce').on('mouseover', function(){
+        $('#beyonce').on('click mouseover', function(){
             let b = $('#beyonce');
             b.animate({
                 top: 60
@@ -23,7 +23,7 @@ $(
         });
 
        
-        $('#cardi').on('mouseover', function(){
+        $('#cardi').on('click mouseover', function(){
             let c = $('#cardi');
             c.animate({
                 top: 60
